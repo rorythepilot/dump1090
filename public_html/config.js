@@ -8,7 +8,7 @@
 // -- Title Settings --------------------------------------
 // Show number of aircraft and/or messages per second in the page title
 PlaneCountInTitle = true;
-MessageRateInTitle = false;
+MessageRateInTitle = true;
 
 // -- Output Settings -------------------------------------
 // The DisplayUnits setting controls whether nautical (ft, NM, knots), 
@@ -32,9 +32,9 @@ DefaultZoomLvl   = 7;
 // that location is used and these settings are ignored.
 
 SiteShow    = false;           // true to show a center marker
-SiteLat     = 45.0;            // position of the marker
-SiteLon     = 9.0;
-SiteName    = "My Radar Site"; // tooltip of the marker
+SiteLat     = 51.892059;            // position of the marker
+SiteLon     = -2.159275;
+SiteName    = "Aeros Flight Training"; // tooltip of the marker
 
 // -- Marker settings -------------------------------------
 
@@ -96,10 +96,10 @@ OutlineMlatColor = '#4040FF';
 
 SiteCircles = true; // true to show circles (only shown if the center marker is shown)
 // In miles, nautical miles, or km (depending settings value 'DisplayUnits')
-SiteCirclesDistances = new Array(100,150,200);
+SiteCirclesDistances = new Array(2,5,10,15,20,25,50,100,150,200);
 
 // Controls page title, righthand pane when nothing is selected
-PageName = "PiAware Skyview";
+PageName = "SkyWatch ADSB";
 
 // Show country flags by ICAO addresses?
 ShowFlags = true;
